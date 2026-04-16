@@ -1,56 +1,49 @@
-<div align="center">
-  <img src="./assets/banner.png" width="100%" alt="FitTrack Pro Banner">
-  
-  <br />
-  
-  <img src="./assets/logo.png" width="200" alt="FitTrack Pro Logo">
+# FitTrack Pro - Ecossistema SaaS para Profissionais de Saúde 🚀
 
-  # FitTrack Pro Ecosystem
-  ### A Solução SaaS Definitiva para Profissionais de Saúde e Performance
+O **FitTrack Pro** é uma plataforma completa (Web & Mobile) desenvolvida para profissionais de Educação Física e Nutrição, permitindo uma gestão 360º de seus clientes, desde a avaliação física até a prescrição técnica e controle financeiro.
 
-  <p align="center">
-    <a href="https://github.com/FitnessTrack/Backend">Backend</a> •
-    <a href="https://github.com/FitnessTrack/Web">Portal Web</a> •
-    <a href="https://github.com/FitnessTrack/Mobile">App Mobile</a> •
-    <a href="https://github.com/FitnessTrack/Docs">Documentação</a>
-  </p>
-</div>
+## 🌟 O que o sistema já é capaz de fazer:
+
+### 🛡️ Segurança & Arquitetura
+- **Isolamento Multi-tenant:** Cada profissional possui seu workspace blindado. Implementamos **Security Hardening** com extração de `tenantId` direto do JWT, garantindo isolamento absoluto de dados.
+- **Autenticação Robusta:** Sistema de Login/Registro com **MFA (Autenticação de Dois Fatores)** nativa.
+- **Infraestrutura:** Dockerizado com PostgreSQL, Redis e isolamento de banco por Tenant.
+
+### 📅 Gestão de Agenda & Leads
+- **Agendamento Inteligente:** Definição de disponibilidade semanal e motor de busca de slots livres.
+- **Portal Público de Agendamento:** Landing page personalizada para captação de novos clientes (Link na Bio) com fluxo multi-step.
+- **Controle de Sessões:** Histórico completo de presenças, cancelamentos e reagendamentos.
+
+### 📊 Avaliações & Evolução
+- **Avaliação Física Profissional:** Suporte aos protocolos **Pollock (7 dobras)** e **Faulkner (4 dobras)** com cálculos automáticos de % Gordura, Massa Magra e IMC.
+- **Dashboards de Histórico:** Gráficos interativos (`recharts`) de evolução antropométrica ao longo do tempo.
+- **Galeria Antes & Depois:** Visualizador premium de fotos de evolução com slider interativo para o aluno e o profissional.
+
+### 🏋️ Treinamento & Prescrição
+- **Construtor de Treinos:** Editor modular de fichas de treino (Treinos A, B, C...) com controle de séries, repetições, carga e tempo de descanso.
+- **Biblioteca de Exercícios:** Base de dados pré-cadastrada com grupos musculares e suporte a vídeos de execução.
+- **Modo Treino (Mobile):** Cronômetro de descanso nativo e registro de carga real utilizada pelo aluno.
+
+### 🍏 Nutrição & Metabolismo
+- **Cálculo Metabólico:** Sugestão de meta calórica usando as fórmulas de **Harris-Benedict** e **Mifflin-St Jeor**.
+- **Prescritor de Dietas:** Montagem de cardápios com soma automática de macronutrientes baseada na **Tabela TACO/USDA**.
+
+### 💳 Financeiro & Crescimento
+- **Gestão de Assinaturas:** Controle de planos de serviço e vencimentos por aluno.
+- **Integração Pagar.me:** Motor financeiro pronto para processar pagamentos via Cartão e PIX com suporte a Webhooks.
+- **Relatórios de Faturamento:** Visualização de receita mensal (MRR) e inadimplência no Dashboard do profissional.
+
+### 💬 Comunicação
+- **Central de Mensagens:** Chat interno (Inbox) para comunicação direta professor-aluno, eliminando a dependência do WhatsApp.
 
 ---
 
-## 🚀 Sobre o Projeto
-
-O **FitTrack Pro** é uma plataforma multi-tenant completa, projetada para centralizar o acompanhamento de clientes para profissionais de **Educação Física** e **Nutrição**. O ecossistema integra agendamento inteligente, avaliações físicas e nutricionais detalhadas, prescrição de treinos e dietas, além de gestão financeira e comunicação direta.
-
-## 🛠️ Stack Tecnológica Geral
-
-| Camada | Tecnologia | Descrição |
-| :--- | :--- | :--- |
-| **Backend** | NestJS (TypeScript) | API RESTful, RLS (Isolamento de Dados), BullMQ |
-| **Frontend Web** | Next.js (React) | Dashboard administrativo e Portais Públicos |
-| **App Mobile** | React Native (Expo) | Experiência nativa iOS/Android, Offline-first |
-| **Banco de Dados** | PostgreSQL + Redis | Persistência robusta e Filas de alta performance |
-| **Infra** | Docker + VPS + AWS | Deployment escalável e seguro |
-
-## 📊 Estado Atual do Desenvolvimento
-
-Atualmente, o projeto está na fase de **Inicialização de Base**.
-
 > [!IMPORTANT]
 > **Status Atual:** ✅ **Projeto Concluído (MVP 1.0)**
-> - **Objetivo:** Todos os módulos (Auth, Treino, Nutrição, Financeiro e Chat) entregues.
-> - **Progresso Global:** 100% (Pronto para escala e operação comercial).
+> - **Progresso Global:** 100%
+> - **Ambiente:** Pronto para Deploy e Escala Comercial.
 
-## 📂 Nossos Repositórios
-
-- 🏗️ [**Backend**](https://github.com/FitnessTrack/Backend): O coração do sistema.
-- 🌐 [**Web**](https://github.com/FitnessTrack/Web): Interface para profissionais.
-- 📱 [**Mobile**](https://github.com/FitnessTrack/Mobile): Interface para clientes.
-- ⚙️ [**Infra**](https://github.com/FitnessTrack/Infra): Scripts de deploy e DevOps.
-- 🔌 [**Integrations**](https://github.com/FitnessTrack/Integrations): Gateways de pagamento e APIs.
-- 📚 [**Docs**](https://github.com/FitnessTrack/Docs): Sprints e Especificações técnicas.
-
- ---
-<div align="center">
-  <sub>Construído com foco em alta performance e segurança.</sub>
-</div>
+Para mais detalhes técnicos, consulte os repositórios individuais:
+- [Backend (NestJS)](https://github.com/FitnessTrack/Backend)
+- [Web (Next.js)](https://github.com/FitnessTrack/Web)
+- [Docs & Planejamento](https://github.com/FitnessTrack/Docs)
