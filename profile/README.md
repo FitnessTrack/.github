@@ -36,6 +36,12 @@ O **FitTrack Pro** é uma plataforma completa (Web & Mobile) desenvolvida para p
 ### 💬 Comunicação
 - **Central de Mensagens:** Chat interno (Inbox) para comunicação direta professor-aluno, eliminando a dependência do WhatsApp.
 
+### 👑 Gestão do Negócio (Super Admin)
+- **Painel de Controle do SaaS:** Interface exclusiva para os donos da plataforma monitorarem a saúde do negócio.
+- **Gestão de Tenants:** Controle granular sobre todos os profissionais cadastrados, com funções de auditoria, suspensão e ativação.
+- **Faturamento Global:** Visão consolidada da receita do SaaS e crescimento da base de assinantes (profissionais).
+- **Política de Hard Block:** Sistema automático que bloqueia o acesso técnico (Treinos/Dietas) de profissionais inadimplentes e seus respectivos alunos, incentivando a adimplência.
+
 ---
 
 > [!IMPORTANT]
