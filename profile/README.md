@@ -37,9 +37,9 @@ O **FitTrack Pro** é uma plataforma multi-tenant completa, projetada para centr
 Atualmente, o projeto está na fase de **Inicialização de Base**.
 
 > [!IMPORTANT]
-> **Status Atual:** 📊 **Sprint 03 em andamento**
-> - **Objetivo:** Avaliações Físicas/Nutricionais, Dashboards de Evolução e Relatórios PDF.
-> - **Progresso Global:** 45% (Motores de cálculo e visualização de resultados em implementação).
+> **Status Atual:** 🏋️ **Sprint 04 em andamento**
+> - **Objetivo:** Prescrição de Treinos, Biblioteca de Exercícios e IMC.
+> - **Progresso Global:** 70% (Módulos de treinamento e execução mobile em desenvolvimento).
 
 ## 📂 Nossos Repositórios
 
