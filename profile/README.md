@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="./profile/assets/banner.png" width="100%" alt="FitTrack Pro Banner">
+  <img src="./assets/banner.png" width="100%" alt="FitTrack Pro Banner">
   
   <br />
   
-  <img src="./profile/assets/logo.png" width="200" alt="FitTrack Pro Logo">
+  <img src="./assets/logo.png" width="200" alt="FitTrack Pro Logo">
 
   # FitTrack Pro Ecosystem
   ### A Solução SaaS Definitiva para Profissionais de Saúde e Performance
